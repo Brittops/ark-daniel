@@ -23,17 +23,9 @@ public class Ark {
                         distinctAnimals.createFemalesList(distinctAnimals.filterSpecies(animals)),
                         distinctAnimals.createMalesList(distinctAnimals.filterSpecies(animals)));
 
-        animals.forEach(StdOut::println);
-        StdOut.println("\n\n\n\n");
+        distinctAnimals.createJSONFile(arkCouples, "arkList");
+
         arkCouples.forEach(StdOut::println);
-        StdOut.println("Animais na arca: " + arkCouples.size());
-
-        /*
-        *
-        * Quantos animais, discriminados por type, animal e sexo, não sobreviverão ao dilúvio?
-        *
-        */
-
 
     }
 

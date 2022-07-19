@@ -1,7 +1,13 @@
 package arcaDeNoe.model;
 
+import com.google.gson.Gson;
+
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.json.simple.JSONArray;
 
 public class DistinctAnimals {
 
@@ -81,6 +87,23 @@ public class DistinctAnimals {
             }
         }
         return arkCouples;
+    }
+
+    //Criando um arquivo JSON
+    public void createJSONFile (List<Animal> animals, String jsonFileName ) {
+        Gson gson = new Gson();
+        JSONArray listAnimal = new JSONArray();
+        listAnimal.add(animals);
+        String s = gson.toJson(animals);
+        try (FileWriter file = new FileWriter(".\\resources\\"+jsonFileName+".json")) {
+
+            file.write(s);
+            file.flush();
+            StdOut.println("Arquivo .json criado com sucesso!");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     //Verificando se o animal é anfíbio

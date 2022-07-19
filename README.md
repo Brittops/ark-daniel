@@ -14,27 +14,6 @@
 ###
 ## Instruções do projeto:
 ### Execução:
-#### Para execução do projeto deve-se, além de baixar as bibliotecas utilizadas, executar a função "main" dentro da classe Ark.
+#### Para execução do projeto deve-se, além de baixar as bibliotecas utilizadas (gson_2.9.0 e json-simple-1.1.1), executar a função "main" na classe Ark.
 ### Output:
-#### A função executável vai gerar um arquivo JSON
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
-###
+#### A função executável vai gerar um arquivo JSON que poderá ser visto na pasta "resources", mesma pasta onde se encontra a lista de animais usada para início do processo.
