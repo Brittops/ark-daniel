@@ -14,36 +14,47 @@ public class Animal {
     public String getType() {
         return type;
     }
+
     public void setType(String type) {
         this.type = type;
     }
+
     public String getAnimal() {
         return animal;
     }
+
     public void setAnimal(String animal) {
         this.animal = animal;
     }
+
     public String getSex() {
         return sex;
     }
+
     public void setSex(String sex) {
         this.sex = sex;
     }
+
     public int getAge() {
         return age;
     }
+
     public void setAge(int age) {
         this.age = age;
     }
+
     public List<Movement> getMovements() {
         return movements;
     }
+
     public void setMovements(List<Movement> movements) {
         this.movements = movements;
     }
+
     public List<Habitat> getHabitats() {
         return habitats;
     }
+
     public void setHabitats(List<Habitat> habitats) {
         this.habitats = habitats;
     }
@@ -73,7 +84,7 @@ public class Animal {
                 + movements + ", habitats=" + habitats + "]";
     }
 
-    //--Constructs--
+    //Construtores
 
     public Animal() {
         super();

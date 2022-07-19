@@ -35,7 +35,7 @@ public class Habitat {
         return Objects.equals(habitats, other.habitats);
     }
 
-    //--Constructs--
+    //Construtores
 
     public Habitat() {
         super();

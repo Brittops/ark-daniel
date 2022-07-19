@@ -35,7 +35,7 @@ public class Movement {
         return Objects.equals(movement, other.movement);
     }
 
-    //--Constructs--
+    //Construtores
 
     public Movement() {
         super();
