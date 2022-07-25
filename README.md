@@ -10,7 +10,7 @@
 #### A classe foi criada para organizar os métodos usados no tratamento e manipulação da lista.
 ###
 ## Bibliotecas:
-### Foram usadas as bibliotecas gson da Google e JSON simple para importação, manipulação e exportação dos arquivos JSON, além da biblioteca local do java 16 para uso do "FileReader".
+### Foram usadas as bibliotecas stdlib para uso da ferramenta StdOut, como proposto no projeto, a gson da Google e JSON simple para importação, manipulação e exportação dos arquivos JSON, além da biblioteca local do java 16 para uso do "FileReader".
 ###
 ## Instruções do projeto:
 ### Execução:
