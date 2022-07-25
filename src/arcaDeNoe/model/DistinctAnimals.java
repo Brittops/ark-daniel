@@ -9,6 +9,8 @@ import java.util.List;
 
 import org.json.simple.JSONArray;
 
+import edu.princeton.cs.introcs.StdOut;
+
 public class DistinctAnimals {
 
     //Filtrando animais discriminando por classe, modo de locomoção e "habitat"
